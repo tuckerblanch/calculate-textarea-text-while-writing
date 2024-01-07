@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+    font-size: 1.2em;
+    background: url("guille-unsplash.jpg");
+    background-position:bottom;
+    background-size: cover;
+}
+textarea{
+    width: 280px;
+    height: 200px;
+    background: rgba(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 
+    5px 5px 5px rgba(255, 255, 255, .2),
+    -5px -5px 5px rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+}
+span{
+    color: #fff;
+}
