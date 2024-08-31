@@ -11,12 +11,3 @@ myTextarea.onkeyup = function() {
         mySpan.style.color = '#008000';
     }};
 
-// 2 Code If Short
-
-// mySpan = document.getElementById('mySpan');
-// document.getElementById('myText').onkeyup = function() {
-// 'use strict';
-
-// mySpan.textContent = 50 - this.value.length;
-// mySpan.textContent < 0 ? mySpan.style.color = '#F00' :  mySpan.style.color = '#000';
-// };
