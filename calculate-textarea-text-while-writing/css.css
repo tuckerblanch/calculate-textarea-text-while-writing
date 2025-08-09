@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+body{*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,4 +34,5 @@ textarea{
 }
 span{
     color: #fff;
+
 }
